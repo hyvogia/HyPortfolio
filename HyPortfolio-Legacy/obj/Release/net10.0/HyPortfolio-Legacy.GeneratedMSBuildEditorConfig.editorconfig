@@ -1,0 +1,159 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFramework = net10.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.RootNamespace = HyPortfolio_Legacy
+build_property.RootNamespace = HyPortfolio_Legacy
+build_property.ProjectDir = C:\Users\Hy\Documents\GitHub\HyPortfolio-Legacy\HyPortfolio-Legacy\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Hy\Documents\GitHub\HyPortfolio-Legacy\HyPortfolio-Legacy
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Abouts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Abouts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Abouts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Abouts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Abouts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Blogs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Blogs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Blogs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Blogs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Blogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Contacts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Contacts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Contacts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Contacts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Contacts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Portfolios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGZvbGlvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Portfolios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGZvbGlvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Portfolios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGZvbGlvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Portfolios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGZvbGlvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Portfolios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGZvbGlvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Services/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Services/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Services/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Services/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Services/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hy/Documents/GitHub/HyPortfolio-Legacy/HyPortfolio-Legacy/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3zcs0gr84o

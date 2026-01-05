@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    @* <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - HyPortfolio_Legacy</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/HyPortfolio_Legacy.styles.css" asp-append-version="true" /> *@
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Hy Vo</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="~/css/bootstrap.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/vendors/linericon/style.css" asp-append-version="true" />
+    @* <link rel="stylesheet" href="~/css/font-awesome.min.css" asp-append-version="true" /> *@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="~/vendors/owl-carousel/owl.carousel.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/magnific-popup.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/vendors/nice-select/css/nice-select.css" asp-append-version="true" />
+    <!-- main css -->
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+
+  @*   <style>
+        .nav-link {
+            border: none;
+            background: transparent;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+            .nav-link:hover,
+            .nav-link:focus {
+                text-decoration: none;
+                outline: none;
+            }
+    </style> *@
+</head>
+<body>
+    @* <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">HyPortfolio_Legacy</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header> *@
+
+    <header class="header_area">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Abouts" asp-action="Index">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Services" asp-action="Index">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Portfolios" asp-action="Index">Project</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Contacts" asp-action="Index">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    @RenderBody()
+
+    @* <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div> *@
+
+    @* <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2026 - HyPortfolio_Legacy - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer> *@
+
+    <!--================Footer Area =================-->
+    <footer class="footer_area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="footer_top flex-column">
+                        <div class="footer_social">
+                            <a href="https://www.facebook.com/profile.php?id=100009867310233"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://github.com/hvo11152021"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer_bottom justify-content-center">
+                <p class="col-lg-8 col-sm-12 footer-text">
+                    &copy; 2022-<script>document.write(new Date().getFullYear());</script> | Inspired by <a href="https://colorlib.com/wp/aigars-silkalns/" target="_blank">Aigars Silkalns</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!--================End Footer Area =================-->
+
+    @* <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false) *@
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="~/js/jquery-3.2.1.min.js"></script>
+    <script src="~/js/stellar.js"></script>
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="~/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="~/vendors/isotope/isotope-min.js"></script>
+    <script src="~/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="~/js/jquery.ajaxchimp.min.js"></script>
+    <script src="~/js/mail-script.js"></script>
+    <script src="https://kit.fontawesome.com/b24bd54802.js" crossorigin="anonymous"></script>
+    <script src="~/js/theme.js"></script>
+    <script src="~/js/scroll.js"></script>
+</body>
+</html>

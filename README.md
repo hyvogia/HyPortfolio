@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://www.hyportfolio.com/">
-    <img src="img/favicon.png" alt="Logo" width="75" height="75">
+  <a href="">
+    <img src="assets/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h1 align="center">HyPortfolio</h1>
@@ -11,4 +11,4 @@
 ## Instruction
 
 #### To review the project
- - Open the folder project with a source code editor like VS Code.
+ - Visual Studios 2026
