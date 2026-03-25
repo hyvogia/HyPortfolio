@@ -5,14 +5,14 @@ function Portfolio() {
         {
             title: 'Library System',
             desc: 'Swing GUI',
-            img: '/src/img/portfolio/library_system.png',
+            img: '/src/assets/img/portfolio/library_system.png',
             github: 'https://github.com/cdo-mdo/MPP_PROJECT',
             filter: 'popular'
         },
         {
             title: 'PJHN',
             desc: 'ASP.NET Core',
-            img: '/src/img/portfolio/pjhn.png',
+            img: '/src/assets/img/portfolio/pjhn.png',
             github: 'https://github.com/hyvogia/PJHN',
             live: 'https://pjhnwebapp-f9gfe9cuc7d6bdfk.centralus-01.azurewebsites.net/',
             filter: ''
@@ -20,7 +20,7 @@ function Portfolio() {
         {
             title: 'BRTF Booking System',
             desc: 'ASP.NET Core',
-            img: '/src/img/portfolio/brtf_booking.jpg',
+            img: '/src/assets/img/portfolio/brtf_booking.jpg',
             github: 'https://github.com/Kalaghni/BRTF_Project',
             filter: 'popular'
         },
@@ -48,13 +48,13 @@ function Portfolio() {
         {
             title: 'Consoto Sale Report',
             desc: 'SQL, Power BI',
-            img: '/src/img/blog/add.jpg',
+            img: '/src/assets/img/blog/add.jpg',
             filter: 'upcoming'
         },
         {
             title: 'Maze Game',
             desc: 'Java Swing',
-            img: '/src/img/portfolio/maze_game.jpg',
+            img: '/src/assets/img/portfolio/maze_game.jpg',
             github: 'https://github.com/hyvogia/labyrinth-java',
             filter: 'upcoming'
         },

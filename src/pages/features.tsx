@@ -15,25 +15,25 @@ function Features() {
                     <div className="row feature_inner">
                         <div className="col-lg-3 col-md-6">
                             <div className="feature_item">
-                                <img src="/src/img/services/s1.png" alt=""></img>
+                                <img src="/src/assets/img/services/s1.png" alt=""></img>
                                 <h4>Software App</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="feature_item">
-                                <img src="/src/img/services/s2.png" alt=""></img>
+                                <img src="/src/assets/img/services/s2.png" alt=""></img>
                                 <h4>Data Analysis</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="feature_item">
-                                <img src="/src/img/services/s3.png" alt=""></img>
+                                <img src="/src/assets/img/services/s3.png" alt=""></img>
                                 <h4>Web Development</h4>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="feature_item">
-                                <img src="/src/img/services/s4.png" alt=""></img>
+                                <img src="/src/assets/img/services/s4.png" alt=""></img>
                                 <h4>Machine Learning</h4>
                             </div>
                         </div>
