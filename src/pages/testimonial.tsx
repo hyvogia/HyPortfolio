@@ -24,17 +24,17 @@ function Testimonial() {
         {
             name: 'Bill Gates',
             quote: '“Patience is a key element of success.”',
-            img: '/src/assets/img/testimonials/bill_gates.jpg'
+            img: '/src/img/testimonials/bill_gates.jpg'
         },
         {
             name: 'Mark Zuckerburg',
             quote: '"The biggest risk is not taking any risk in a world that is changing really quickly, the only strategy that is quarantees to fail is not taking risks.',
-            img: '/src/assets/img/testimonials/mark_zuckerberg.jpg'
+            img: '/src/img/testimonials/mark_zuckerberg.jpg'
         },
         {
             name: 'Elon Musk',
             quote: '"I think it is possible for ordinary people to choose to be extraordinary."',
-            img: '/src/assets/img/testimonials/elon_musk.jpg'
+            img: '/src/img/testimonials/elon_musk.jpg'
         }
     ];
 

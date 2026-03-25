@@ -15,7 +15,7 @@ function BlogSidebar() {
                     <div className="br"></div>
                 </aside>
                 <aside className="single_sidebar_widget author_widget">
-                    <img className="author_img rounded-circle" src="/src/assets/img/blog/author.jpg" alt="" />
+                    <img className="author_img rounded-circle" src="/src/img/blog/author.jpg" alt="" />
                     <h4>Me</h4>
                     <p>Blog writer</p>
                     <div className="social_icon">
@@ -30,28 +30,28 @@ function BlogSidebar() {
                 <aside className="single_sidebar_widget popular_post_widget">
                     <h3 className="widget_title">Popular Posts</h3>
                     <div className="media post_item">
-                        <img src="/src/assets/img/blog/popular-post/post1.jpg" alt="post" />
+                        <img src="/src/img/blog/popular-post/post1.jpg" alt="post" />
                         <div className="media-body">
                             <Link to="/blog/single"><h3>Space The Final Frontier</h3></Link>
                             <p>02 Hours ago</p>
                         </div>
                     </div>
                     <div className="media post_item">
-                        <img src="/src/assets/img/blog/popular-post/post2.jpg" alt="post" />
+                        <img src="/src/img/blog/popular-post/post2.jpg" alt="post" />
                         <div className="media-body">
                             <Link to="/blog/single"><h3>The Amazing Hubble</h3></Link>
                             <p>02 Hours ago</p>
                         </div>
                     </div>
                     <div className="media post_item">
-                        <img src="/src/assets/img/blog/popular-post/post3.jpg" alt="post" />
+                        <img src="/src/img/blog/popular-post/post3.jpg" alt="post" />
                         <div className="media-body">
                             <Link to="/blog/single"><h3>Astronomy Or Astrology</h3></Link>
                             <p>03 Hours ago</p>
                         </div>
                     </div>
                     <div className="media post_item">
-                        <img src="/src/assets/img/blog/popular-post/post4.jpg" alt="post" />
+                        <img src="/src/img/blog/popular-post/post4.jpg" alt="post" />
                         <div className="media-body">
                             <Link to="/blog/single"><h3>Asteroids telescope</h3></Link>
                             <p>01 Hours ago</p>
@@ -60,7 +60,7 @@ function BlogSidebar() {
                     <div className="br"></div>
                 </aside>
                 <aside className="single_sidebar_widget ads_widget">
-                    <a href="#"><img className="img-fluid" src="/src/assets/img/blog/add.jpg" alt="" /></a>
+                    <a href="#"><img className="img-fluid" src="/src/img/blog/add.jpg" alt="" /></a>
                     <div className="br"></div>
                 </aside>
                 <aside className="single_sidebar_widget post_category_widget">

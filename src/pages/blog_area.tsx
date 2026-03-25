@@ -29,7 +29,7 @@ function BlogArea() {
                                     </div>
                                     <div className="col-md-9">
                                         <div className="blog_post">
-                                            <img src="/src/assets/img/blog/main-blog/m-blog-2.jpg" alt="" />
+                                            <img src="/src/img/blog/main-blog/m-blog-2.jpg" alt="" />
                                             <div className="blog_details">
                                                 <Link to="/blog/single"><h2>The Basics Of Buying A Telescope</h2></Link>
                                                 <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
@@ -57,7 +57,7 @@ function BlogArea() {
                                     </div>
                                     <div className="col-md-9">
                                         <div className="blog_post">
-                                            <img src="/src/assets/img/blog/main-blog/m-blog-3.jpg" alt="" />
+                                            <img src="/src/img/blog/main-blog/m-blog-3.jpg" alt="" />
                                             <div className="blog_details">
                                                 <Link to="/blog/single"><h2>The Glossary Of Telescopes</h2></Link>
                                                 <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
@@ -85,7 +85,7 @@ function BlogArea() {
                                     </div>
                                     <div className="col-md-9">
                                         <div className="blog_post">
-                                            <img src="/src/assets/img/blog/main-blog/m-blog-4.jpg" alt="" />
+                                            <img src="/src/img/blog/main-blog/m-blog-4.jpg" alt="" />
                                             <div className="blog_details">
                                                 <Link to="/blog/single"><h2>The Night Sky</h2></Link>
                                                 <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
@@ -113,7 +113,7 @@ function BlogArea() {
                                     </div>
                                     <div className="col-md-9">
                                         <div className="blog_post">
-                                            <img src="/src/assets/img/blog/main-blog/m-blog-5.jpg" alt="" />
+                                            <img src="/src/img/blog/main-blog/m-blog-5.jpg" alt="" />
                                             <div className="blog_details">
                                                 <Link to="/blog/single"><h2>Telescopes 101</h2></Link>
                                                 <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction.</p>
@@ -141,7 +141,7 @@ function BlogArea() {
                                     <div className="col-md-9">
                                         <div className="blog_post">
                                             <a href="https://www.artstation.com/artwork/QLbXd">
-                                                <img src="/src/assets/img/blog/main-blog/abandoned-home.jpg" style={{ width: "555px", height: "280px" }} />
+                                                <img src="/src/img/blog/main-blog/abandoned-home.jpg" style={{ width: "555px", height: "280px" }} />
                                             </a>
                                             <div className="blog_details">
                                                 <Link to="/blog/zombie"><h2>The Office Siege: A Zombie Apocalypse Dream</h2></Link>
