@@ -6,6 +6,7 @@ import mblog3 from "/src/img/blog/main-blog/m-blog-3.jpg"
 import mblog4 from "/src/img/blog/main-blog/m-blog-4.jpg"
 import mblog5 from "/src/img/blog/main-blog/m-blog-5.jpg"
 import abandonedHome from "/src/img/blog/main-blog/abandoned-home.jpg"
+import BlogInfo from './blog_info';
 
 function BlogArea() {
     return (
@@ -17,20 +18,7 @@ function BlogArea() {
                             <div className="blog_left_sidebar">
                                 <article className="row blog_item">
                                     <div className="col-md-3">
-                                        <div className="blog_info text-right">
-                                            <div className="post_tag">
-                                                <a href="#">Food,</a>
-                                                <a className="active" href="#">Technology,</a>
-                                                <a href="#">Politics,</a>
-                                                <a href="#">Lifestyle</a>
-                                            </div>
-                                            <ul className="blog_meta list">
-                                                <li><a href="#">Mark wiens<i className="lnr lnr-user"></i></a></li>
-                                                <li><a href="#">12 Dec, 2017<i className="lnr lnr-calendar-full"></i></a></li>
-                                                <li><a href="#">1.2M Views<i className="lnr lnr-eye"></i></a></li>
-                                                <li><a href="#">06 Comments<i className="lnr lnr-bubble"></i></a></li>
-                                            </ul>
-                                        </div>
+                                        <BlogInfo />
                                     </div>
                                     <div className="col-md-9">
                                         <div className="blog_post">
@@ -45,20 +33,7 @@ function BlogArea() {
                                 </article>
                                 <article className="row blog_item">
                                     <div className="col-md-3">
-                                        <div className="blog_info text-right">
-                                            <div className="post_tag">
-                                                <a href="#">Food,</a>
-                                                <a className="active" href="#">Technology,</a>
-                                                <a href="#">Politics,</a>
-                                                <a href="#">Lifestyle</a>
-                                            </div>
-                                            <ul className="blog_meta list">
-                                                <li><a href="#">Mark wiens<i className="lnr lnr-user"></i></a></li>
-                                                <li><a href="#">12 Dec, 2017<i className="lnr lnr-calendar-full"></i></a></li>
-                                                <li><a href="#">1.2M Views<i className="lnr lnr-eye"></i></a></li>
-                                                <li><a href="#">06 Comments<i className="lnr lnr-bubble"></i></a></li>
-                                            </ul>
-                                        </div>
+                                        <BlogInfo />
                                     </div>
                                     <div className="col-md-9">
                                         <div className="blog_post">
@@ -73,20 +48,7 @@ function BlogArea() {
                                 </article>
                                 <article className="row blog_item">
                                     <div className="col-md-3">
-                                        <div className="blog_info text-right">
-                                            <div className="post_tag">
-                                                <a href="#">Food,</a>
-                                                <a className="active" href="#">Technology,</a>
-                                                <a href="#">Politics,</a>
-                                                <a href="#">Lifestyle</a>
-                                            </div>
-                                            <ul className="blog_meta list">
-                                                <li><a href="#">Mark wiens<i className="lnr lnr-user"></i></a></li>
-                                                <li><a href="#">12 Dec, 2017<i className="lnr lnr-calendar-full"></i></a></li>
-                                                <li><a href="#">1.2M Views<i className="lnr lnr-eye"></i></a></li>
-                                                <li><a href="#">06 Comments<i className="lnr lnr-bubble"></i></a></li>
-                                            </ul>
-                                        </div>
+                                        <BlogInfo />
                                     </div>
                                     <div className="col-md-9">
                                         <div className="blog_post">
@@ -101,20 +63,7 @@ function BlogArea() {
                                 </article>
                                 <article className="row blog_item">
                                     <div className="col-md-3">
-                                        <div className="blog_info text-right">
-                                            <div className="post_tag">
-                                                <a href="#">Food,</a>
-                                                <a className="active" href="#">Technology,</a>
-                                                <a href="#">Politics,</a>
-                                                <a href="#">Lifestyle</a>
-                                            </div>
-                                            <ul className="blog_meta list">
-                                                <li><a href="#">Mark wiens<i className="lnr lnr-user"></i></a></li>
-                                                <li><a href="#">12 Dec, 2017<i className="lnr lnr-calendar-full"></i></a></li>
-                                                <li><a href="#">1.2M Views<i className="lnr lnr-eye"></i></a></li>
-                                                <li><a href="#">06 Comments<i className="lnr lnr-bubble"></i></a></li>
-                                            </ul>
-                                        </div>
+                                        <BlogInfo />
                                     </div>
                                     <div className="col-md-9">
                                         <div className="blog_post">
@@ -129,19 +78,7 @@ function BlogArea() {
                                 </article>
                                 <article className="row blog_item">
                                     <div className="col-md-3">
-                                        <div className="blog_info text-right">
-                                            <div className="post_tag">
-                                                <a href="blog-tech.html">Tech,</a>
-                                                <a href="blog-essay.html">Essays,</a>
-                                                <a href="blog-thoughts.html" className="active">Thoughts</a>
-                                            </div>
-                                            <ul className="blog_meta list">
-                                                <li><a>Hy Vo<i className="lnr lnr-user"></i></a></li>
-                                                <li><a>Nov 7, 2024<i className="lnr lnr-calendar-full"></i></a></li>
-                                                <li><a href="#">0 Views<i className="lnr lnr-eye"></i></a></li>
-                                                <li><a href="#">0 Comments<i className="lnr lnr-bubble"></i></a></li>
-                                            </ul>
-                                        </div>
+                                        <BlogInfo />
                                     </div>
                                     <div className="col-md-9">
                                         <div className="blog_post">

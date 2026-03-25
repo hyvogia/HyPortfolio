@@ -65,9 +65,9 @@ function Header() {
                                     <li className="nav-item">
                                         <button className="nav-link" onClick={() => scrollNav('portfolio')}>Projects</button>
                                     </li>
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link className="nav-link" to="/blog">Blog</Link>
-                                    </li>
+                                    </li> */}
                                     <li className="nav-item">
                                         <button className="nav-link"  onClick={() => scrollNav('contact_area')}>Contact</button>
                                     </li>
