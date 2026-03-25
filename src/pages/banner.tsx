@@ -1,4 +1,4 @@
-
+import homeSitting from "../img/banner/home_sitting.png";
 
 function HomeBanner() {
     return (
@@ -20,7 +20,7 @@ function HomeBanner() {
                             </div>
                             <div className="col-lg-5">
                                 <div className="home_right_img">
-                                    <img className="" src="/src/img/banner/home_sitting.png" alt="" />
+                                    <img className="" src={homeSitting} alt="" />
                                 </div>
                             </div>
                         </div>

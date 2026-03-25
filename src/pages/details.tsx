@@ -1,6 +1,7 @@
 import Footer from "../Footer";
 import Header from "../Header";
 import Contact from "./contact";
+import librarySystem from "/src/img/portfolio/library_system.png"
 
 
 function Details() {
@@ -17,7 +18,7 @@ function Details() {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="left_img">
-                                    <img className="img-fluid" src="/src/img/portfolio/library_system.png" alt="" />
+                                    <img className="img-fluid" src={librarySystem} alt="" />
                                 </div>
                             </div>
                             <div className="offset-lg-1 col-lg-5">

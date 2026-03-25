@@ -1,18 +1,22 @@
-
+import librarySystem from "/src/img/portfolio/library_system.png"
+import pjhnImg from "/src/img/portfolio/pjhn.png"
+import brtfBooking from "/src/img/portfolio/brtf_booking.jpg"
+import blogAdd from "/src/img/blog/add.jpg"
+import mazeGame from "/src/img/portfolio/maze_game.jpg"
 
 function Portfolio() {
     const projects = [
         {
             title: 'Library System',
             desc: 'Swing GUI',
-            img: '/src/img/portfolio/library_system.png',
+            img: librarySystem,
             github: 'https://github.com/cdo-mdo/MPP_PROJECT',
             filter: 'popular'
         },
         {
             title: 'PJHN',
             desc: 'ASP.NET Core',
-            img: '/src/img/portfolio/pjhn.png',
+            img: pjhnImg,
             github: 'https://github.com/hyvogia/PJHN',
             live: 'https://pjhnwebapp-f9gfe9cuc7d6bdfk.centralus-01.azurewebsites.net/',
             filter: ''
@@ -20,7 +24,7 @@ function Portfolio() {
         {
             title: 'BRTF Booking System',
             desc: 'ASP.NET Core',
-            img: '/src/img/portfolio/brtf_booking.jpg',
+            img: brtfBooking,
             github: 'https://github.com/Kalaghni/BRTF_Project',
             filter: 'popular'
         },
@@ -48,13 +52,13 @@ function Portfolio() {
         {
             title: 'Consoto Sale Report',
             desc: 'SQL, Power BI',
-            img: '/src/img/blog/add.jpg',
+            img: blogAdd,
             filter: 'upcoming'
         },
         {
             title: 'Maze Game',
             desc: 'Java Swing',
-            img: '/src/img/portfolio/maze_game.jpg',
+            img: mazeGame,
             github: 'https://github.com/hyvogia/labyrinth-java',
             filter: 'upcoming'
         },

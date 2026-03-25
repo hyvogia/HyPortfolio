@@ -1,5 +1,9 @@
 
 
+import cat1 from "/src/img/blog/cat-post/pexels-luis-gomes-166706-546819.jpg"
+import cat2 from "/src/img/blog/cat-post/pexels-polina-kovaleva-5546879.jpg"
+import cat3 from "/src/img/blog/cat-post/pexels-minan1398-1629212.jpg"
+
 function BlogCategorie() {
     return (
         <>
@@ -8,7 +12,7 @@ function BlogCategorie() {
                     <div className="row">
                         <div className="col-lg-4">
                             <div className="categories_post">
-                                <img src="/src/img/blog/cat-post/pexels-luis-gomes-166706-546819.jpg" alt="post" />
+                                <img src={cat1} alt="post" />
                                 <div className="categories_details">
                                     <div className="categories_text">
                                         <a href="blog-tech.html">
@@ -22,7 +26,7 @@ function BlogCategorie() {
                         </div>
                         <div className="col-lg-4">
                             <div className="categories_post">
-                                <img src="/src/img/blog/cat-post/pexels-polina-kovaleva-5546879.jpg" alt="post" />
+                                <img src={cat2} alt="post" />
                                 <div className="categories_details">
                                     <div className="categories_text">
                                         <a href="blog-essay.html">
@@ -36,7 +40,7 @@ function BlogCategorie() {
                         </div>
                         <div className="col-lg-4">
                             <div className="categories_post">
-                                <img src="/src/img/blog/cat-post/pexels-minan1398-1629212.jpg" alt="post" />
+                                <img src={cat3} alt="post" />
                                 <div className="categories_details">
                                     <div className="categories_text">
                                         <a href="blog-thoughts.html">

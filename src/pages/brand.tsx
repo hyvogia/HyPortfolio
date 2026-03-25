@@ -1,4 +1,6 @@
-
+import icare from "/src/img/brands/icarecenter.svg"
+import niagara from "/src/img/brands/niagaracollege.svg"
+import ridley from "/src/img/brands/ridleycollege.png"
 
 function Brand() {
     return (
@@ -11,21 +13,21 @@ function Brand() {
                                 <div className="col-lg-4 col-md-4 col-sm-6">
                                     <div className="single-brand-item d-table">
                                         <div className="d-table-cell text-center">
-                                            <img src="/src/img/brands/icarecenter.svg" style={{ maxWidth: "150px" }} alt="" />
+                                            <img src={icare} style={{ maxWidth: "150px" }} alt="" />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-4 col-sm-6">
                                     <div className="single-brand-item d-table">
                                         <div className="d-table-cell text-center">
-                                            <img src="/src/img/brands/niagaracollege.svg" style={{ maxWidth: "110px" }} alt="" />
+                                            <img src={niagara} style={{ maxWidth: "110px" }} alt="" />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-4 col-sm-6">
                                     <div className="single-brand-item d-table">
                                         <div className="d-table-cell text-center">
-                                            <img src="/src/img/brands/ridleycollege.png" style={{ maxWidth: "150px" }} alt="" />
+                                            <img src={ridley} style={{ maxWidth: "150px" }} alt="" />
                                         </div>
                                     </div>
                                 </div>

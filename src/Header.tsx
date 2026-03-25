@@ -1,6 +1,7 @@
 
 import { Link, useNavigate, useLocation } from 'react-router-dom'
 import { useCallback } from 'react'
+import logo from "/src/img/logo.png"
 
 // Navigate to home and scroll to a section. If already on home, try immediate scroll.
 function useScrollNavigation() {
@@ -39,7 +40,7 @@ function Header() {
                     <nav className="navbar navbar-expand-lg navbar-light">
                         <div className="container">
                             {/* Brand and toggle get grouped for better mobile display */}
-                            <a className="navbar-brand logo_h" href="/"><img src="/src/img/logo.png" width="100" alt="" /></a>
+                            <a className="navbar-brand logo_h" href="/"><img src={logo} width="100" alt="" /></a>
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="icon-bar"></span>

@@ -1,5 +1,15 @@
 import BlogSidebar from "./blog_sidebar"
 import ReplyForm from "./reply_form"
+import abandonedHome from "/src/img/blog/main-blog/abandoned-home.jpg"
+import postImg1 from "/src/img/blog/post-img1.jpg"
+import postImg2 from "/src/img/blog/post-img2.jpg"
+import prevImg from "/src/img/blog/prev.jpg"
+import nextImg from "/src/img/blog/next.jpg"
+import rickGrimes from "/src/img/blog/rick_grimes.webp"
+import authorImg from "/src/img/blog/author.jpg"
+import c3 from "/src/img/blog/c3.jpg"
+import c4 from "/src/img/blog/c4.jpg"
+import c5 from "/src/img/blog/c5.jpg"
 
 
 function Zombie() {
@@ -13,8 +23,8 @@ function Zombie() {
                             <div className="single-post row">
                                 <div className="col-lg-12">
                                     <div className="feature-img">
-                                        <a href="https://www.artstation.com/artwork/QLbXd">
-                                            <img className="img-fluid" src="/src/img/blog/main-blog/abandoned-home.jpg" style={{ width: "750px", height: "350px" }} />
+                                            <a href="https://www.artstation.com/artwork/QLbXd">
+                                            <img className="img-fluid" src={abandonedHome} style={{ width: "750px", height: "350px" }} />
                                         </a>
                                     </div>
                                 </div>
@@ -57,10 +67,10 @@ function Zombie() {
                                     </div>
                                     <div className="row">
                                         <div className="col-6">
-                                            <img className="img-fluid" src="/src/img/blog/post-img1.jpg" alt="" />
+                                            <img className="img-fluid" src={postImg1} alt="" />
                                         </div>
                                         <div className="col-6">
-                                            <img className="img-fluid" src="/src/img/blog/post-img2.jpg" alt="" />
+                                            <img className="img-fluid" src={postImg2} alt="" />
                                         </div>
                                         <div className="col-lg-12 mt-25">
                                             <p>
@@ -76,8 +86,8 @@ function Zombie() {
                             <div className="navigation-area">
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
-                                        <div className="thumb">
-                                            <a href="#"><img className="img-fluid" src="/src/img/blog/prev.jpg" alt="" /></a>
+                                            <div className="thumb">
+                                            <a href="#"><img className="img-fluid" src={prevImg} alt="" /></a>
                                         </div>
                                         <div className="arrow">
                                             <a href="#"><span className="lnr text-white lnr-arrow-left"></span></a>
@@ -95,8 +105,8 @@ function Zombie() {
                                         <div className="arrow">
                                             <a href="#"><span className="lnr text-white lnr-arrow-right"></span></a>
                                         </div>
-                                        <div className="thumb">
-                                            <a href="#"><img className="img-fluid" src="/src/img/blog/next.jpg" alt="" /></a>
+                                            <div className="thumb">
+                                            <a href="#"><img className="img-fluid" src={nextImg} alt="" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -107,7 +117,7 @@ function Zombie() {
                                     <div className="single-comment justify-content-between d-flex">
                                         <div className="user justify-content-between d-flex">
                                             <div className="thumb">
-                                                <img src="/src/img/blog/rick_grimes.webp" style={{ width: "60px", height: "60px" }} alt="Rick" />
+                                                <img src={rickGrimes} style={{ width: "60px", height: "60px" }} alt="Rick" />
                                             </div>
                                             <div className="desc">
                                                 <h5><a href="#">Rick Grimes</a></h5>
@@ -124,7 +134,7 @@ function Zombie() {
                                     <div className="single-comment justify-content-between d-flex">
                                         <div className="user justify-content-between d-flex">
                                             <div className="thumb">
-                                                <img src="/src/img/blog/author.jpg" style={{ width: '60px', height: "60px" }} alt="Hy" />
+                                                <img src={authorImg} style={{ width: '60px', height: "60px" }} alt="Hy" />
                                             </div>
                                             <div className="desc">
                                                 <h5><a href="#">Author</a></h5>
@@ -143,7 +153,7 @@ function Zombie() {
                                     <div className="single-comment justify-content-between d-flex">
                                         <div className="user justify-content-between d-flex">
                                             <div className="thumb">
-                                                <img src="/src/img/blog/c3.jpg" alt="" />
+                                                <img src={c3} alt="" />
                                             </div>
                                             <div className="desc">
                                                 <h5><a href="#">Annie Stephens</a></h5>
@@ -162,7 +172,7 @@ function Zombie() {
                                     <div className="single-comment justify-content-between d-flex">
                                         <div className="user justify-content-between d-flex">
                                             <div className="thumb">
-                                                <img src="/src/img/blog/c4.jpg" alt="" />
+                                                <img src={c4} alt="" />
                                             </div>
                                             <div className="desc">
                                                 <h5><a href="#">Maria Luna</a></h5>
@@ -181,7 +191,7 @@ function Zombie() {
                                     <div className="single-comment justify-content-between d-flex">
                                         <div className="user justify-content-between d-flex">
                                             <div className="thumb">
-                                                <img src="/src/img/blog/c5.jpg" alt="" />
+                                                <img src={c5} alt="" />
                                             </div>
                                             <div className="desc">
                                                 <h5><a href="#">Ina Hayes</a></h5>
