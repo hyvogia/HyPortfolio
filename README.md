@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://www.hyportfolio.com/">
-    <img src="img/favicon.png" alt="Logo" width="75" height="75">
+  <a href="">
+    <img src="src/img/favicon.png" alt="Logo" width="75" height="75">
   </a>
 
   <h1 align="center">HyPortfolio</h1>
