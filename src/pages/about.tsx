@@ -15,7 +15,7 @@ function About() {
                         <div className="offset-lg-1 col-lg-5">
                             <div className="main_title text-left">
                                 <h2>About me</h2>
-                                <p>Hy Võ - He Vo?</p>
+                                <p>Hy Võ - He Vo? That's correct.</p>
                                 <p>I enjoy exploring new technologies and building useful tools and products.</p>
                                 <p>Former <strong>Data Analyst</strong> at Ridley College Canada.</p>
                                 <p>Experienced in Data Analysis, Front-end Development, and Software Development.</p>

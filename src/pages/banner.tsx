@@ -14,7 +14,7 @@ function HomeBanner() {
                                     <h5 className="text-uppercase">a software engineer</h5>
                                     <div className="d-flex align-items-center">
                                         <a className="primary_btn" href="https://www.linkedin.com/in/hy-vo"><span>Hire Me</span></a>
-                                        <a className="primary_btn tr-bg" href="/Hy_resume.pdf" download><span>Resume</span></a>
+                                        {/* <a className="primary_btn tr-bg" href="/Hy_resume.pdf" download><span>Resume</span></a> */}
                                     </div>
                                 </div>
                             </div>
