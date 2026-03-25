@@ -11,7 +11,7 @@ function Brand() {
                                 <div className="col-lg-4 col-md-4 col-sm-6">
                                     <div className="single-brand-item d-table">
                                         <div className="d-table-cell text-center">
-                                            <img src="/src/img/brands/icarecenter.svg" style={{ maxWidth: "150px" }} alt="" />
+                                            <img src="src/img/brands/icarecenter.svg" style={{ maxWidth: "150px" }} alt="" />
                                         </div>
                                     </div>
                                 </div>
