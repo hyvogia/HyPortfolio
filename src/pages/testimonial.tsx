@@ -1,5 +1,9 @@
 import { useEffect } from 'react';
 
+import billgates from "../img/testimonials/bill_gates.jpg"
+import markzuck from "../img/testimonials/mark_zuckerberg.jpg"
+import elonmusk from "../img/testimonials/elon_musk.jpg"
+
 function Testimonial() {
     useEffect(() => {
         const $ = (window as any).$ || (window as any).jQuery;
@@ -24,17 +28,17 @@ function Testimonial() {
         {
             name: 'Bill Gates',
             quote: '“Patience is a key element of success.”',
-            img: '/src/img/testimonials/bill_gates.jpg'
+            img: billgates
         },
         {
             name: 'Mark Zuckerburg',
             quote: '"The biggest risk is not taking any risk in a world that is changing really quickly, the only strategy that is quarantees to fail is not taking risks.',
-            img: '/src/img/testimonials/mark_zuckerberg.jpg'
+            img: markzuck
         },
         {
             name: 'Elon Musk',
             quote: '"I think it is possible for ordinary people to choose to be extraordinary."',
-            img: '/src/img/testimonials/elon_musk.jpg'
+            img: elonmusk
         }
     ];
 
