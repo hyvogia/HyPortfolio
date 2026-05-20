@@ -139,6 +139,42 @@ button:focus {
     color: #fff;
     opacity: .6; }
 
+/* Portfolio-specific entrance animations: reuse slide-in-left keyframes */
+.portfolio_area .main_title {
+  opacity: 0;
+  transform: translateX(-24px);
+  animation: slide-in-left 640ms cubic-bezier(.2,.9,.2,1) forwards;
+  animation-delay: 120ms;
+}
+.portfolio_area .main_title h2 {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slide-in-left 560ms cubic-bezier(.2,.9,.2,1) forwards;
+  animation-delay: 220ms;
+}
+
+.portfolio_area .filters ul li {
+  opacity: 0;
+  transform: translateX(-18px);
+  animation: slide-in-left 520ms cubic-bezier(.2,.9,.2,1) forwards;
+}
+.portfolio_area .filters ul li:nth-child(1) { animation-delay: 260ms; }
+.portfolio_area .filters ul li:nth-child(2) { animation-delay: 340ms; }
+.portfolio_area .filters ul li:nth-child(3) { animation-delay: 420ms; }
+.portfolio_area .filters ul li:nth-child(4) { animation-delay: 500ms; }
+.portfolio_area .filters ul li:nth-child(5) { animation-delay: 580ms; }
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio_area .main_title,
+  .portfolio_area .main_title h2,
+  .portfolio_area .filters ul li {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}
+
 /* End Main Title Area css
 ============================================================================================ */
 /* Start Gradient Area css

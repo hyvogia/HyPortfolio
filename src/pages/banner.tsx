@@ -3,7 +3,7 @@ import homeSitting from "../img/banner/home_sitting.png";
 function HomeBanner() {
     return (
         <>
-            <section id="home_area" className="home_banner_area section_gap_bottom">
+            <section id="home_area" className="home_banner_area">
                 <div className="banner_inner">
                     <div className="container">
                         <div className="row">
