@@ -47,10 +47,10 @@ function HomeContent() {
     <>
       <Header />
       <HomeBanner />
+      <Portfolio />
       <About />
       <Brand />
       <Features />
-      <Portfolio />
       <Testimonial />
       <Contact />
       <Footer />
