@@ -54,6 +54,9 @@ function Header() {
                                         <button className="nav-link" onClick={() => scrollNav('home_area')}>Home</button>
                                     </li>
                                     <li className="nav-item">
+                                        <button className="nav-link" onClick={() => scrollNav('portfolio')}>Projects</button>
+                                    </li>
+                                    <li className="nav-item">
                                         <button className="nav-link" onClick={() => scrollNav('about_area')}>About</button>
                                     </li>
                                     <li className="nav-item">
@@ -62,9 +65,7 @@ function Header() {
                                     <li className="nav-item">
                                         <button className="nav-link" onClick={() => scrollNav('feature_area')}>Skills</button>
                                     </li>
-                                    <li className="nav-item">
-                                        <button className="nav-link" onClick={() => scrollNav('portfolio')}>Projects</button>
-                                    </li>
+                                    
                                     {/* <li className="nav-item">
                                         <Link className="nav-link" to="/blog">Blog</Link>
                                     </li> */}
