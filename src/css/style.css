@@ -394,7 +394,8 @@ button:focus {
   .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .home_right_img {
-      padding-top: 197px; }
+      padding-top: 197px;
+      position: relative; }
       @media (max-width: 1480px) {
         .home_banner_area .banner_inner .home_right_img img {
           max-width: 100%;
@@ -402,6 +403,35 @@ button:focus {
       @media (max-width: 991px) {
         .home_banner_area .banner_inner .home_right_img {
           display: none; } }
+
+    /* Yellow decorative frame overlay on top of the image
+       - frame visual width = 70% of image width (scaleX(0.7))
+       - frame visual height = 120% of image width (scaleY(1.2))
+       - frame thickness = 20px
+    */
+    .home_banner_area .banner_inner .home_right_img::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      height: 100%;
+      transform: translate(-55%, -45%) scaleX(0.7) scaleY(0.7);
+      transform-origin: center;
+      border: 20px solid #FFD84A; /* warm yellow */
+      border-radius: 6px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.18);
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .home_banner_area .banner_inner .home_right_img img {
+      position: relative;
+      z-index: 1;
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
     .home_banner_area .banner_inner .col-lg-7 {
       vertical-align: middle;
       align-self: center; }
