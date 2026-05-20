@@ -175,6 +175,22 @@ button:focus {
   }
 }
 
+/* Animate the filters-content container (projects grid) to match banner/portfolio entrance */
+.portfolio_area .filters-content.appear-content {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slide-in-left 640ms cubic-bezier(.2,.9,.2,1) forwards;
+  animation-delay: 360ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio_area .filters-content.appear-content {
+    animation: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}
+
 /* End Main Title Area css
 ============================================================================================ */
 /* Start Gradient Area css

@@ -91,7 +91,7 @@ function Portfolio() {
                             <li data-filter=".upcoming">upcoming</li>
                         </ul>
                     </div>
-                    <div className="filters-content">
+                    <div className="filters-content appear-content">
                         <div className="row portfolio-grid justify-content-center">
                             {projects.map((p, idx) => (
                                 <div className={`col-lg-4 col-md-6 all ${p.filter || ''}`} key={idx}>
