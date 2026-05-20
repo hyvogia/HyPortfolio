@@ -51,7 +51,7 @@ function HomeContent() {
       <About />
       <Brand />
       <Features />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
       <Footer />
     </>

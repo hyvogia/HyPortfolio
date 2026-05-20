@@ -11,10 +11,11 @@ function HomeBanner() {
                                 <div className="banner_content">
                                     <h3 className="text-uppercase">Hello</h3>
                                     <h1 className="text-uppercase">It's Daniel Vo</h1>
-                                    <h5 className="text-uppercase">a software engineer</h5>
+                                    <h5 className="text-uppercase">a data engineer</h5>
                                     <div className="d-flex align-items-center">
-                                        <a className="primary_btn" href="https://www.linkedin.com/in/hy-vo"><span>Hire Me</span></a>
-                                        {/* <a className="primary_btn tr-bg" href="/Hy_resume.pdf" download><span>Resume</span></a> */}
+                                        <a className="primary_btn" href="https://www.linkedin.com/in/hy-vo"><span>LinkedIn</span></a>
+                                        <a className="primary_btn tr-bg" href="/Hy_resume.pdf" download><span>Resume</span></a>
+                                        {/* still need to update resume */}
                                     </div>
                                 </div>
                             </div>

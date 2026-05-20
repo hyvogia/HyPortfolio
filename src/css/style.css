@@ -213,44 +213,44 @@ button:focus {
 ============================================================================================ */
 .primary_btn {
     display: inline-block;
-    color: #fff;
-    letter-spacing: 0px;
-    font-family: "Rubik", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 46px;
-    outline: none !important;
-    text-align: center;
-    cursor: pointer;
-    text-transform: uppercase;
-    border-radius: 5px;
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    /*gradient changed*/
-    background-image: linear-gradient(to right, #dc8344 0%, #ee844f 100%), radial-gradient(circle at top left, #dc8344, #ee844f);
-    border: double 2px transparent;
-    box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+  color: #fff;
+  letter-spacing: 0px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 46px;
+  outline: none !important;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  /* LinkedIn blue */
+  background-image: linear-gradient(to right, #0A66C2 0%, #0A66C2 100%);
+  border: double 2px transparent;
+  box-shadow: 0px 10px 30px rgba(10, 102, 194, 0.14);
 }
   .primary_btn span {
     padding: 0 42px; }
     .primary_btn.tr-bg {
-        background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #dc8344, #ee844f);
-        border: 2px solid transparent;
-        color: #222222;
-        box-shadow: none;
+    background-image: linear-gradient(#ffffff, #ffffff);
+    border: 2px solid #0A66C2; /* LinkedIn blue border */
+    color: #0A66C2;
+    box-shadow: none;
     }
     .primary_btn.tr-bg:hover {
-        background-image: linear-gradient(to right, #dc8344 0%, #ee844f 100%), radial-gradient(circle at top left, #dc8344, #ee844f);
-        border: double 2px transparent;
-        color: #ffffff;
-        box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+    background-image: linear-gradient(to right, #0A66C2 0%, #0A66C2 100%);
+    border: double 2px transparent;
+    color: #ffffff;
+    box-shadow: 0px 10px 30px rgba(10, 102, 194, 0.14);
     }
     .primary_btn:hover {
-        background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #dc8344, #ee844f);
-        border: 2px solid #ee844f;
-        color: #222222;
-        box-shadow: none;
-        background-clip: border-box;
+    background-image: linear-gradient(#ffffff, #ffffff);
+    border: 2px solid #0A66C2;
+    color: #0A66C2;
+    box-shadow: none;
+    background-clip: border-box;
     }
 
 .overlay {
