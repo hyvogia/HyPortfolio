@@ -407,6 +407,30 @@ button:focus {
       align-self: center; }
     .home_banner_area .banner_inner .banner_content {
       text-align: left; }
+      /* Slide-in from left animation for banner content */
+      .home_banner_area .banner_inner .banner_content {
+        opacity: 0;
+        transform: translateX(-28px);
+        animation: slide-in-left 640ms cubic-bezier(.2,.9,.2,1) forwards;
+        animation-delay: 120ms;
+      }
+      .home_banner_area .banner_inner .banner_content h3,
+      .home_banner_area .banner_inner .banner_content h1,
+      .home_banner_area .banner_inner .banner_content h5,
+      .home_banner_area .banner_inner .banner_content .primary_btn {
+        opacity: 0;
+        transform: translateX(-22px);
+        animation: slide-in-left 560ms cubic-bezier(.2,.9,.2,1) forwards;
+      }
+      .home_banner_area .banner_inner .banner_content h3 { animation-delay: 180ms; }
+      .home_banner_area .banner_inner .banner_content h1 { animation-delay: 320ms; }
+      .home_banner_area .banner_inner .banner_content h5 { animation-delay: 420ms; }
+      .home_banner_area .banner_inner .banner_content .primary_btn { animation-delay: 520ms; }
+
+      @keyframes slide-in-left {
+        from { opacity: 0; transform: translateX(-28px); }
+        to { opacity: 1; transform: translateX(0); }
+      }
       @media (max-width: 991px) {
         .home_banner_area .banner_inner .banner_content {
           margin-top: 150px; } }
