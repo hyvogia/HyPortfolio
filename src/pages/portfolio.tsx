@@ -6,63 +6,63 @@ import mazeGame from "/src/img/portfolio/maze_game.jpg"
 
 function Portfolio() {
     const projects = [
+        // {
+        //     title: 'Library System',
+        //     desc: 'Swing GUI',
+        //     img: librarySystem,
+        //     github: 'https://github.com/cdo-mdo/MPP_PROJECT',
+        //     filter: 'popular'
+        // },
+        // {
+        //     title: 'PJHN',
+        //     desc: 'ASP.NET Core',
+        //     img: pjhnImg,
+        //     github: 'https://github.com/hyvogia/PJHN',
+        //     live: 'https://pjhnwebapp-f9gfe9cuc7d6bdfk.centralus-01.azurewebsites.net/',
+        //     filter: ''
+        // },
         {
-            title: 'Library System',
-            desc: 'Swing GUI',
-            img: librarySystem,
-            github: 'https://github.com/cdo-mdo/MPP_PROJECT',
-            filter: 'popular'
+            title: 'Workplace Management System',
+            desc: 'C#, ASP.NET MVC',
+            img: 'https://raw.githubusercontent.com/hyvogia/WorkplaceSystem/refs/heads/main/screencapture-booking.png',
+            github: 'https://github.com/hyvogia/WorkplaceSystem',
+            filter: 'latest'
         },
         {
-            title: 'PJHN',
-            desc: 'ASP.NET Core',
-            img: pjhnImg,
-            github: 'https://github.com/hyvogia/PJHN',
-            live: 'https://pjhnwebapp-f9gfe9cuc7d6bdfk.centralus-01.azurewebsites.net/',
-            filter: ''
-        },
-        {
-            title: 'BRTF Booking System',
-            desc: 'ASP.NET Core',
-            img: brtfBooking,
-            github: 'https://github.com/Kalaghni/BRTF_Project',
-            filter: 'popular'
-        },
-        {
-            title: 'Canada Games',
-            desc: 'ASP.NET Core',
+            title: 'Athlete Management System',
+            desc: 'C#, ASP.NET MVC',
             img: 'https://raw.githubusercontent.com/hyvogia/CanadaGames/refs/heads/main/cg1.png',
             github: 'https://github.com/hyvogia/CanadaGames',
-            filter: ''
+            filter: 'latest'
         },
         {
             title: 'Medical Office',
-            desc: 'ASP.NET Core',
+            desc: 'C#, ASP.NET MVC',
             img: 'https://raw.githubusercontent.com/hyvogia/MedicalOffice/refs/heads/main/mo1.png',
             github: 'https://github.com/hyvogia/MedicalOffice',
-            filter: ''
+            filter: 'latest'
         },
-        {
-            title: 'Inventory System',
-            desc: 'React, Node.js',
-            img: 'https://raw.githubusercontent.com/hyvogia/InventorySystem/refs/heads/main/em1.png',
-            github: 'https://github.com/hyvogia/InventorySystem',
-            filter: ''
-        },
-        {
-            title: 'Maze Game',
-            desc: 'Java Swing',
-            img: mazeGame,
-            github: 'https://github.com/hyvogia/labyrinth-java',
-            filter: 'upcoming'
-        },
-        {
-            title: 'BioClub',
-            desc: 'Thymeleaf, Spring',
-            img: 'https://raw.githubusercontent.com/hyvogia/BioClub/refs/heads/main/screencapture.png',
-            github: 'https://github.com/hyvogia/BioClub/',
-            filter: ''
-        },
+        // {
+        //     title: 'Inventory System',
+        //     desc: 'React, Node.js',
+        //     img: 'https://raw.githubusercontent.com/hyvogia/InventorySystem/refs/heads/main/em1.png',
+        //     github: 'https://github.com/hyvogia/InventorySystem',
+        //     filter: ''
+        // },
+        // {
+        //     title: 'Maze Game',
+        //     desc: 'Java Swing',
+        //     img: mazeGame,
+        //     github: 'https://github.com/hyvogia/labyrinth-java',
+        //     filter: 'upcoming'
+        // },
+        // {
+        //     title: 'BioClub',
+        //     desc: 'Thymeleaf, Spring',
+        //     img: 'https://raw.githubusercontent.com/hyvogia/BioClub/refs/heads/main/screencapture.png',
+        //     github: 'https://github.com/hyvogia/BioClub/',
+        //     filter: ''
+        // },
         {
             title: 'Contoso Retail Sales',
             desc: 'Power BI, SQL Server',
