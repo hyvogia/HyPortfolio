@@ -50,12 +50,6 @@ function Portfolio() {
             filter: ''
         },
         {
-            title: 'Consoto Sale Report',
-            desc: 'SQL, Power BI',
-            img: blogAdd,
-            filter: 'upcoming'
-        },
-        {
             title: 'Maze Game',
             desc: 'Java Swing',
             img: mazeGame,
@@ -68,6 +62,20 @@ function Portfolio() {
             img: 'https://raw.githubusercontent.com/hyvogia/BioClub/refs/heads/main/screencapture.png',
             github: 'https://github.com/hyvogia/BioClub/',
             filter: ''
+        },
+        {
+            title: 'Contoso Retail Sales',
+            desc: 'Power BI, SQL Server',
+            img: 'https://raw.githubusercontent.com/hyvogia/ContosoBIDashboard/refs/heads/main/screencapture.png',
+            github: 'https://github.com/hyvogia/ContosoBIDashboard',
+            filter: 'latest'
+        },
+        {
+            title: 'Weather Report',
+            desc: 'Python, Jupyter Lab',
+            img: 'https://raw.githubusercontent.com/hyvogia/WeatherReport/refs/heads/main/screencapture.png',
+            github: 'https://github.com/hyvogia/WeatherReport/',
+            filter: 'latest'
         }
     ];
 

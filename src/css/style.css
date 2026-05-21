@@ -276,11 +276,11 @@ button:focus {
   height: 100%;
   width: 100%; }
 
-/* Make portfolio images square with light grey background and cover behavior */
 .single_portfolio .image_wrap {
+  /* 16:9 aspect ratio (height = 56.25% of width) for portfolio thumbnails */
   position: relative;
   width: 100%;
-  padding-top: 100%; /* 1:1 aspect ratio */
+  padding-top: 56.25%; /* 16:9 aspect ratio */
   background: #f5f5f6; /* light grey for extra space */
   overflow: hidden;
   border-radius: 8px;
