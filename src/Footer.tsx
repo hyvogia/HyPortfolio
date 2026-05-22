@@ -17,7 +17,7 @@ function Footer() {
                     </div>
                     <div className="row footer_bottom justify-content-center">
                         <p className="col-lg-8 col-sm-12 footer-text">
-                            &copy; Hy Vo 2022 | Inspired by <a href="https://colorlib.com/wp/aigars-silkalns/" target="_blank">Aigars Silkalns</a>
+                            &copy; Hy Vo 2026  | Inspired by <a href="https://colorlib.com/wp/aigars-silkalns/" target="_blank">Aigars Silkalns</a>
                         </p>
                     </div>
                 </div>
