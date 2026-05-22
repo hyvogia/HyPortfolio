@@ -269,6 +269,15 @@ button:focus {
     background-clip: border-box;
     }
 
+/* feature logos: constrain height to 69px while preserving aspect ratio */
+.feature-logo {
+  max-height: 69px;
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 0 auto 12px;
+}
+
 .overlay {
   position: absolute;
   left: 0;
