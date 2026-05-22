@@ -20,7 +20,7 @@ function Brand() {
 
     return (
         <>
-            <section id="brand_area" className="brand_area section_gap">
+            <section id="brand_area" className="brand_area">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-6">
@@ -40,7 +40,7 @@ function Brand() {
                             <div className="client-info">
                                 <div className="d-flex mb-50">
                                     <span className="lage">03</span>
-                                    <span className="smll">Years Experience Programming</span>
+                                    <span className="smll">Years Programming</span>
                                 </div>
                             </div>
                         </div>

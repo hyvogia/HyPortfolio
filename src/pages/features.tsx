@@ -1,9 +1,4 @@
 
-import s1 from "/src/img/services/s1.png"
-import s2 from "/src/img/services/s2.png"
-import s3 from "/src/img/services/s3.png"
-import s4 from "/src/img/services/s4.png"
-
 function Features() {
     return (
         <>

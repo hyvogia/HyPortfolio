@@ -49,8 +49,8 @@ function HomeContent() {
       <HomeBanner />
       <Portfolio />
       <About />
-      <Brand />
       <Features />
+      <Brand />
       {/* <Testimonial /> */}
       <Contact />
       <Footer />
