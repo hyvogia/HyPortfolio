@@ -2,8 +2,20 @@ function Brand() {
     const logos = [
         'https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg',
         'https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg',
-        'https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg',
-        'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg'
+        'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg',
+        'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg',
+        'https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg',
+        'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg',
+        'https://www.vectorlogo.zone/logos/springio/springio-icon.svg',
+        'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg',
+        'https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg',
+        'https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg',
+        'https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg',
+        'https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg',
+        'https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg',
+        'https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg',
+        'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg'
+
     ]
 
     return (
