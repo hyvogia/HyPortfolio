@@ -3,6 +3,7 @@ import pjhnImg from "/src/img/portfolio/pjhn.png"
 import brtfBooking from "/src/img/portfolio/brtf_booking.jpg"
 import blogAdd from "/src/img/blog/add.jpg"
 import mazeGame from "/src/img/portfolio/maze_game.jpg"
+import sqlDWH from "/src/img/portfolio/sql_dwh_architecture.png"
 
 function Portfolio() {
     const projects = [
@@ -22,7 +23,21 @@ function Portfolio() {
         //     filter: ''
         // },
         {
-            title: 'Workplace Management System',
+            title: 'SQL Data Warehouse',
+            desc: 'SQL Server, Azure',
+            img: sqlDWH,
+            github: 'https://github.com/hyvogia/SQLDataWarehouse',
+            filter: 'latest'
+        },
+        {
+            title: 'Contoso Retail Sales',
+            desc: 'Power BI, SQL Server',
+            img: 'https://raw.githubusercontent.com/hyvogia/ContosoBIDashboard/refs/heads/main/screencapture.png',
+            github: 'https://github.com/hyvogia/ContosoBIDashboard',
+            filter: 'latest'
+        },
+        {
+            title: 'Workplace Booking System',
             desc: 'C#, ASP.NET MVC',
             img: 'https://raw.githubusercontent.com/hyvogia/WorkplaceSystem/refs/heads/main/screencapture-booking.png',
             github: 'https://github.com/hyvogia/WorkplaceSystem',
@@ -36,7 +51,7 @@ function Portfolio() {
             filter: 'latest'
         },
         {
-            title: 'Medical Office',
+            title: 'Patient Management System',
             desc: 'C#, ASP.NET MVC',
             img: 'https://raw.githubusercontent.com/hyvogia/MedicalOffice/refs/heads/main/mo1.png',
             github: 'https://github.com/hyvogia/MedicalOffice',
@@ -63,13 +78,7 @@ function Portfolio() {
         //     github: 'https://github.com/hyvogia/BioClub/',
         //     filter: ''
         // },
-        {
-            title: 'Contoso Retail Sales',
-            desc: 'Power BI, SQL Server',
-            img: 'https://raw.githubusercontent.com/hyvogia/ContosoBIDashboard/refs/heads/main/screencapture.png',
-            github: 'https://github.com/hyvogia/ContosoBIDashboard',
-            filter: 'latest'
-        },
+        
         {
             title: 'Weather Report',
             desc: 'Python, Jupyter Lab',
