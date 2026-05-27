@@ -14,14 +14,7 @@ function Portfolio() {
         //     github: 'https://github.com/cdo-mdo/MPP_PROJECT',
         //     filter: 'popular'
         // },
-        // {
-        //     title: 'PJHN',
-        //     desc: 'ASP.NET Core',
-        //     img: pjhnImg,
-        //     github: 'https://github.com/hyvogia/PJHN',
-        //     live: 'https://pjhnwebapp-f9gfe9cuc7d6bdfk.centralus-01.azurewebsites.net/',
-        //     filter: ''
-        // },
+        // 
         {
             title: 'SQL Data Warehouse',
             desc: 'SQL Server, Azure',
@@ -37,6 +30,14 @@ function Portfolio() {
             filter: 'latest'
         },
         {
+            title: 'PJHN Web',
+            desc: 'TS, React',
+            img: pjhnImg,
+            github: 'https://github.com/hyvogia/PJHN-Web',
+            live: 'https://main.d3pjjvush6v5av.amplifyapp.com/',
+            filter: 'latest'
+        },
+        {
             title: 'Workplace Booking System',
             desc: 'C#, ASP.NET MVC',
             img: 'https://raw.githubusercontent.com/hyvogia/WorkplaceSystem/refs/heads/main/screencapture-booking.png',
@@ -48,13 +49,6 @@ function Portfolio() {
             desc: 'C#, ASP.NET MVC',
             img: 'https://raw.githubusercontent.com/hyvogia/CanadaGames/refs/heads/main/cg1.png',
             github: 'https://github.com/hyvogia/CanadaGames',
-            filter: 'latest'
-        },
-        {
-            title: 'Patient Management System',
-            desc: 'C#, ASP.NET MVC',
-            img: 'https://raw.githubusercontent.com/hyvogia/MedicalOffice/refs/heads/main/mo1.png',
-            github: 'https://github.com/hyvogia/MedicalOffice',
             filter: 'latest'
         },
         // {
