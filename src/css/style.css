@@ -478,6 +478,8 @@ button:focus {
       width: 100%;
       height: 100%;
       transform: translate(-55%, -45%) scaleX(0.7) scaleY(0.7);
+      /* temporarily hide the yellow frame */
+      display: none;
       transform-origin: center;
       border: 20px solid #FFD84A; /* warm yellow */
       border-radius: 6px;
