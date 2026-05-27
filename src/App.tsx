@@ -14,7 +14,7 @@ import Contact from './pages/contact'
 import Features from './pages/features'
 import HomeBanner from './pages/banner'
 import Portfolio from './pages/portfolio'
-import Testimonial from './pages/testimonial'
+// import Testimonial from './pages/testimonial'
 import { Routes, Route } from 'react-router-dom'
 
 function HomeContent() {

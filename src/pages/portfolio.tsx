@@ -1,8 +1,8 @@
-import librarySystem from "/src/img/portfolio/library_system.png"
+// import librarySystem from "/src/img/portfolio/library_system.png"
 import pjhnImg from "/src/img/portfolio/pjhn.png"
-import brtfBooking from "/src/img/portfolio/brtf_booking.jpg"
-import blogAdd from "/src/img/blog/add.jpg"
-import mazeGame from "/src/img/portfolio/maze_game.jpg"
+// import brtfBooking from "/src/img/portfolio/brtf_booking.jpg"
+// import blogAdd from "/src/img/blog/add.jpg"
+// import mazeGame from "/src/img/portfolio/maze_game.jpg"
 import sqlDWH from "/src/img/portfolio/sql_dwh_architecture.png"
 
 function Portfolio() {
