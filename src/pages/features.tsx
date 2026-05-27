@@ -1,3 +1,5 @@
+import nc from "/src/img/brands/niagaracollege.svg";
+import rc from "/src/img/brands/ridleycollege.png";
 
 function Features() {
     return (
@@ -14,14 +16,14 @@ function Features() {
                     <div className="row feature_inner">
                         <div className="col-lg-3 col-md-6">
                             <div className="feature_item">
-                                <img src="/src/img/brands/niagaracollege.svg" className="feature-logo" alt="" />
+                                <img src={nc} className="feature-logo" alt="" />
                                 <h4>Peer Tutor</h4>
                                 <p>Part-time @ Niagara College Canada</p>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6">
                             <div className="feature_item">
-                                <img src="/src/img/brands/ridleycollege.png" className="feature-logo" alt="" />
+                                <img src={rc} className="feature-logo" alt="" />
                                 <h4>Technical Data Analyst</h4>
                                 <p>Full-time & Ridley College Canada</p>
                             </div>
