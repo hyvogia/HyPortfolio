@@ -4,24 +4,26 @@ import pjhnImg from "/src/img/portfolio/pjhn.png"
 // import blogAdd from "/src/img/blog/add.jpg"
 // import mazeGame from "/src/img/portfolio/maze_game.jpg"
 import sqlDWH from "/src/img/portfolio/sql_dwh_architecture.png"
+import marketlane from "/src/img/portfolio/marketlane_ecom.png"
 
 function Portfolio() {
     const projects = [
-        // {
-        //     title: 'Library System',
-        //     desc: 'Swing GUI',
-        //     img: librarySystem,
-        //     github: 'https://github.com/cdo-mdo/MPP_PROJECT',
-        //     filter: 'popular'
-        // },
-        // 
+        
         {
             title: 'SQL Data Warehouse',
-            desc: 'SQL Server, Azure',
+            desc: '2026 - SQL Server, Azure',
             img: sqlDWH,
             github: 'https://github.com/hyvogia/SQLDataWarehouse',
-            filter: 'latest'
+            filter: 'upcoming'
         },
+        {
+            title: 'Market Lane',
+            desc: '2025 - Spring Boot, React Vite',
+            img: marketlane,
+            github: 'https://github.com/hyvogia/MarketLaneECom',
+            filter: 'popular'
+        },
+        
         {
             title: 'Contoso Retail Sales',
             desc: 'Power BI, SQL Server',
@@ -98,7 +100,7 @@ function Portfolio() {
                             <li className="active" data-filter="*">all</li>
                             <li data-filter=".popular">popular</li>
                             <li data-filter=".latest"> latest</li>
-                            <li data-filter=".following">following</li>
+                            {/* <li data-filter=".following">following</li> */}
                             <li data-filter=".upcoming">upcoming</li>
                         </ul>
                     </div>
